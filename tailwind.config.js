@@ -5,7 +5,32 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          1: "#E5E5E5",
+          2: "#CBCBCB",
+          3: "#B1B1B1",
+          4: "#979797",
+          5: "#7D7D7D",
+          6: "#636363",
+          7: "#494949",
+          8: "#2E2E2E",
+          9: "#141414",
+        },
+      },
+      fontSize: {
+        "custom-xs": "0.938rem",
+        "custom-sm": "1.188rem",
+        "custom-md": "1.5rem",
+        "custom-lg": "1.875rem",
+        "custom-xl": "2.375rem",
+        "custom-2xl": "2.9375rem",
+        "custom-3xl": "3.6875rem",
+        "custom-4xl": "4.5625rem",
+        "custom-5xl": "5.75rem",
+      },
+    },
   },
   plugins: [],
 };

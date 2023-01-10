@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Services from "../components/sections/homepage/Services";
 const Home = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home = () => {
       <h1 className="text-center text-9xl underline font-semibold text-white">
         Unit A
       </h1>
+      <Services />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Button from "../components/ui/Button";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="text-center text-9xl underline font-semibold">Unit A</h1>
+
+      {/* Displaying the button component in order to allow the QA reviewer to see the current result, this will be removed later */}
+      <div className="bg-black w-full h-screen p-5">
+      <Button>Contact us</Button>
+      </div>
     </>
   );
 }

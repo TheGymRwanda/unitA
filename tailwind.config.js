@@ -32,7 +32,8 @@ module.exports = {
         "custom-5xl": "5.75rem",
       },
       maxWidth: {
-        '1/2': '50%'
+        '1/2': '50%',
+        '1.05/2': '55%'
       },
       screens: {
         "1.5xl": "80.0625rem",

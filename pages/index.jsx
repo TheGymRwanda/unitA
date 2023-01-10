@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Wrapper from "../components/layouts/Wrapper"
-import Index from "../components/sections/homepage/Project/Index";
+import Projects from "../components/sections/homepage/Project";
 const Home = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Wrapper>
-        <Index />
+        <Projects/>
       </Wrapper>
     </>
   );

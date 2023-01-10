@@ -4,15 +4,15 @@ import Wrapper from "../../../layouts/Wrapper";
 const Index = () => {
   return (
     <Wrapper>
-      <div className="text-white relative  mt-31.25 xl:mt-11.75">
+      <div className="text-white relative mt-31.25 xl:mt-11.75">
         <Image
           src="/assets/images/shape-2.webp"
           alt=""
           width={103.4}
           height={103.4}
-          className="absolute right-6 top-0 hidden xl:block"
+          className="absolute right-0 top-0 hidden xl:block"
         />
-        <div className="font-semibold custom-xl sm:text-custom-3xl  xl:mt-26.75 inline-block">
+        <div className="font-semibold text-custom-xl sm:text-custom-3xl xl:mt-26.75 inline-block">
           A
           <span className="relative ml-4.25">
             joint-force b
@@ -24,13 +24,14 @@ const Index = () => {
               height={13.59}
             />
           </span>
-          etween African & European developers & organizations working in
-          <span className="relative  ml-4.25">
+          etween African & European developers & organizations working{" "}
+          <span className="block md:inline">in</span>
+          <span className="relative text-3xl h-fit w-fit sm:text-custom-3xl  block md:ml-4.25 md:inline-block">
             blockchain technology
             <Image
               src="/assets/icons/large-line.svg"
               alt=""
-              className="absolute  w-11.8/12 -left-1 -bottom-1 md:-bottom-3 "
+              className="absolute w-11.8/12 -left-1 -bottom-1 md:-bottom-7 "
               width={589}
               height={14}
             />

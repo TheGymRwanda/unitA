@@ -1,5 +1,7 @@
 import Head from "next/head";
 import React from "react";
+import Wrapper from "../components/layouts/Wrapper"
+import Index from "../components/sections/homepage/Project/Index";
 const Home = () => {
   return (
     <>
@@ -13,9 +15,9 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-center text-9xl underline font-semibold text-white">
-        Unit A
-      </h1>
+      <Wrapper>
+        <Index />
+      </Wrapper>
     </>
   );
 };

@@ -30,6 +30,9 @@ module.exports = {
         "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015rem" }],
         "custom-5xl": "5.75rem",
       },
+      screens: {
+        "1.5xl": "80.0625rem",
+      },
       borderRadius: {
         "4xl": "2rem",
         "5xl": "2.8125rem",
@@ -40,6 +43,8 @@ module.exports = {
       spacing: {
         6.25: "1.5625rem",
         4.12: "1.0813rem",
+        11.5: "2.875rem",
+        39.75: "9.9375rem",
       },
     },
   },

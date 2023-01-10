@@ -2,7 +2,7 @@ import React from "react";
 
 const Title = ({ children }) => {
   return (
-    <div className="relative w-fit text-white">
+    <div className="relative w-fit text-white z-50">
       <h2 className="text-custom-3xl lg:text-custom-4xl leading-normal font-medium">
         {children}
       </h2>

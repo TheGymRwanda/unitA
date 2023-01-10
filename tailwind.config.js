@@ -30,6 +30,13 @@ module.exports = {
         "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015rem" }],
         "custom-5xl": "5.75rem",
       },
+      borderRadius: {
+        "4xl": "2rem",
+        "5xl": "2.8125rem",
+      },
+      lineHeight: {
+        11: "2.8125rem",
+      },
       spacing: {
         6.25: "1.5625rem",
         4.12: "1.0813rem",

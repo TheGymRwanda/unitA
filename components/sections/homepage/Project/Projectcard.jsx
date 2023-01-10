@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../../ui/Button";
-import unit8 from "/public/assets/images/Unit8.webp";
+import unit8 from "/public/assets/images/unit8.webp";
 import lab3 from "/public/assets/images/lab3.webp"
 import Image from "next/image";
 function Projectcard({ title, description, link, imageName }) {

@@ -27,8 +27,11 @@ module.exports = {
         "custom-xl": "2.375rem",
         "custom-2xl": "2.9375rem",
         "custom-3xl": "3.6875rem",
-        "custom-4xl": "4.5625rem",
+        "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015rem" }],
         "custom-5xl": "5.75rem",
+      },
+      spacing: {
+        6.25: "1.5625rem",
       },
     },
   },

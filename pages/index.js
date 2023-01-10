@@ -1,5 +1,7 @@
 import Head from "next/head";
-export default function Home() {
+import Title from "../components/ui/Title";
+import React from "react";
+const Home = () => {
   return (
     <>
       <Head>
@@ -12,7 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-center text-9xl underline font-semibold">Unit A</h1>
+      <div className="ml-3 z-50">
+        <Title>Who we are</Title>
+        <Title>Our work</Title>
+      </div>
     </>
   );
-}
+};
+export default Home;

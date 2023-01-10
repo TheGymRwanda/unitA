@@ -6,7 +6,7 @@ import ServiceItem from './ServiceItem/indes'
 
 const Services = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-18.5 lg:mt-15 xl:mt-16">
         <Wrapper>
             <Title>What we do</Title>
             <div className="mt-26.75 flex flex-col gap-32">

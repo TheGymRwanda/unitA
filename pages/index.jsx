@@ -16,8 +16,12 @@ export default function Home() {
       <h1 className="text-center text-9xl underline font-semibold">Unit A</h1>
 
       {/* Displaying the button component in order to allow the QA reviewer to see the current result, this will be removed later */}
-      <div className="bg-black w-full h-screen p-5">
-      <Button>Contact us</Button>
+      <div className="bg-black w-full h-screen p-5 space-y-12">
+        <div className="flex flex-col gap-5">
+          <Button>Normal button</Button>
+          <Button size="large">Large button</Button>
+          <Button link="mailto:ktesialine@gmail.com" target="blank">Email button</Button>
+        </div>
       </div>
     </>
   );

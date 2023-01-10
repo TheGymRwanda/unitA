@@ -31,7 +31,11 @@ module.exports = {
         "custom-5xl": "5.75rem",
       },
       borderRadius: {
-        '4xl': '2rem'
+        '4xl': '2rem',
+        '5xl': '2.8125rem'
+      },
+      lineHeight: {
+        11: '2.8125rem'
       }
     },
   },

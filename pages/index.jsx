@@ -1,8 +1,22 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
+import Services from "../components/sections/homepage/Services";
+import "aos/dist/aos.css";
+import Aos from "aos";
 import Header from "../components/layouts/Header";
 import { Jobs } from "../components/sections";
 const Home = () => {
+  useEffect(() => {
+    (() => {
+      if (window?.document) {
+        Aos.init({
+          duration: 800,
+          offset: 200,
+        });
+      }
+    })();
+  }, []);
+
   return (
     <>
       <Head>
@@ -16,6 +30,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <Services />
       <Jobs />
     </>
   );

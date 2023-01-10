@@ -18,6 +18,7 @@ module.exports = {
           8: "#2E2E2E",
           9: "#141414",
         },
+        secondary: "#9A9A9A",
       },
       fontSize: {
         "custom-xs": "0.938rem",
@@ -29,6 +30,10 @@ module.exports = {
         "custom-3xl": ["3.6875rem", { letterSpacing: "-0.015rem" }],
         "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015rem" }],
         "custom-5xl": "5.75rem",
+      },
+      maxWidth: {
+        "1/2": "50%",
+        "1.05/2": "55%",
       },
       screens: {
         "1.5xl": "80.0625rem",
@@ -44,8 +49,14 @@ module.exports = {
         6.25: "1.5625rem",
         4.12: "1.0813rem",
         11.5: "2.875rem",
+        15: "3.75rem",
+        18.5: "4.625rem",
+        26.75: "6.6875rem",
         39.75: "9.9375rem",
         9.25: "2.3125rem",
+        52.75: "13.1875rem",
+        24.1: "6.0256rem",
+        25.5: "6.375rem",
       },
     },
   },

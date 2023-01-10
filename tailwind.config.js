@@ -18,7 +18,7 @@ module.exports = {
           8: "#2E2E2E",
           9: "#141414",
         },
-        secondary: '#9A9A9A'
+        secondary: "#9A9A9A",
       },
       fontSize: {
         "custom-xs": "0.938rem",
@@ -26,14 +26,14 @@ module.exports = {
         "custom-md": "1.5rem",
         "custom-lg": "1.875rem",
         "custom-xl": "2.375rem",
-        "custom-2xl": "2.9375rem",
+        "custom-2xl": ["2.9375rem", { letterSpacing: "-0.015rem" }],
         "custom-3xl": ["3.6875rem", { letterSpacing: "-0.015rem" }],
         "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015rem" }],
         "custom-5xl": "5.75rem",
       },
       maxWidth: {
-        '1/2': '50%',
-        '1.05/2': '55%'
+        "1/2": "50%",
+        "1.05/2": "55%",
       },
       screens: {
         "1.5xl": "80.0625rem",
@@ -52,7 +52,11 @@ module.exports = {
         15: "3.75rem",
         18.5: "4.625rem",
         26.75: "6.6875rem",
-        39.75: "9.9375rem"
+        39.75: "9.9375rem",
+        9.25: "2.3125rem",
+        52.75: "13.1875rem",
+        24.1: "6.0256rem",
+        25.5: "6.375rem",
       },
     },
   },

@@ -1,10 +1,13 @@
 import React from "react";
+import Wrapper from "./Wrapper";
 
 const Header = () => {
   return (
-    <header className="text-white mt-9.25">
-      <h1 className="text-custom-2xl font-semibold leading-normal">Unit A</h1>
-    </header>
+    <Wrapper size="small">
+      <header className="text-white mt-9.25">
+        <h1 className="text-custom-2xl font-semibold leading-normal">Unit A</h1>
+      </header>
+    </Wrapper>
   );
 };
 

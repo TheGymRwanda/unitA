@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Header from "../components/layouts/Header";
-import Wrapper from "../components/layouts/Wrapper";
+import { Jobs } from "../components/sections";
 const Home = () => {
   return (
     <>
@@ -15,9 +15,8 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Wrapper size="small">
-        <Header />
-      </Wrapper>
+      <Header />
+      <Jobs />
     </>
   );
 };

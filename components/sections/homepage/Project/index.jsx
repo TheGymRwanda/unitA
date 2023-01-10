@@ -1,16 +1,15 @@
-import Image from "next/image";
+
 import React from "react";
 import { projects } from "../../../../data";
-import Button from "../../../ui/Button";
+import Wrapper from "../../../layouts/Wrapper";
 import Projectcard from "./Projectcard";
-
 function Index() {
   return (
-      <div>
-        {projects.map((element, index) => (
-          <Projectcard {...element} key={index} />
-        ))}
-      </div>
+    <Wrapper size="small">
+      {projects.map((element, index) => (
+        <Projectcard {...element} key={index} />
+      ))}
+    </Wrapper>
   );
 }
 export default Index;

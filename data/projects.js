@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Unit8",
+    title: "Unit 8",
     description:
       "A pioneering technology company specializing in decentralized technologies that creates end-to-end digital experiences for protocols including Ethereum, Tezos, Near, Algorand, Celo and more.",
     imageName: "unit8",

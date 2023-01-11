@@ -7,7 +7,7 @@ const CallToAction = () => {
     <Wrapper size='small'>
       <div className='hidden lg:block w-full h-max bg-gray-8 rounded-4xl py-16 text-center mt-32'>
         <h1 className='text-custom-3xl'>Ready to talk about your project?</h1>
-        <p className='text-center mx-auto text-custom-md mt-5 text-gray-1'>
+        <p className='text-center mx-auto text-custom-md mt-4.5 text-gray-1'>
           Are you looking for a consultancy partnership to address your blockchain challenges? <br /> We’d love to hear
           from you. Let’s build something <br /> amazing together.
         </p>

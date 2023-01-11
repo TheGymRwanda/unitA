@@ -26,7 +26,7 @@ module.exports = {
         "custom-xs": "0.938rem",
         "custom-sm": "1.188rem",
         "custom-md": "1.5rem",
-        "custom-lg": ["1.875rem", { letterSpacing: "-0.0938rem" }],
+        "custom-lg": "1.875rem",
         "custom-xl": "2.375rem",
         "custom-2xl": "2.9375rem",
         "custom-3xl": ["3.6875rem", { letterSpacing: "-0.015rem" }],
@@ -42,8 +42,8 @@ module.exports = {
       },
       lineHeight: {
         11: "2.8125rem",
-        22.12:"5.5313rem",
-        14.25:"3.5625rem"
+        22.12: "5.5313rem",
+        14.25: "3.5625rem",
       },
       spacing: {
         6.25: "1.5625rem",
@@ -55,6 +55,9 @@ module.exports = {
         26.5: "6.625rem",
         5.57: "1.4375rem",
         102: "25.5rem",
+      },
+      letterSpacing: {
+        stretch: "0.018rem",
       },
       maxWidth: {
         141.75: "35.4375rem",

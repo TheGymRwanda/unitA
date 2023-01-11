@@ -4,3 +4,10 @@
 body {
   @apply bg-black text-white;
 }
+
+@media screen and (max-width: 460px) {
+
+  [data-aos^="fade"] {
+    transform: none !important;
+  }
+}

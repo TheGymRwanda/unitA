@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Projects from "../components/sections/homepage/Project";
 import Hero from "../components/sections/homepage/Hero";
 import React, { useEffect } from "react";
 import Services from "../components/sections/homepage/Services";
@@ -32,6 +33,7 @@ const Home = () => {
       </Head>
       <Header />
       <Hero />
+      <Projects />
       <Services />
       <Jobs />
     </>

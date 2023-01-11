@@ -14,6 +14,7 @@ const CallToAction = () => {
         <div className='text-black w-full flex justify-center pt-16 px-5'>
           <Button size='large'>Schedule a call</Button>
         </div>
+        <p>Hello</p>
       </div>
     </Wrapper>
   );

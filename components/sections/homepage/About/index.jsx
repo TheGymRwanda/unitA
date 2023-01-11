@@ -22,7 +22,7 @@ const About = () => {
             work in blockchain technology.
           </p>
         </div>
-        <Button target="_blank" link="mailto:u2467@apeunit.com">
+        <Button link="mailto:u2467@apeunit.com">
           Contact us
         </Button>
       </div>

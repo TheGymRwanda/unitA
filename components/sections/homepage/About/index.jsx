@@ -3,7 +3,7 @@ import Wrapper from "../../../layouts/Wrapper";
 import Button from "../../../ui/Button";
 import Title from "../../../ui/Title";
 
-const Index = () => {
+const About = () => {
   return (
     <Wrapper>
       <div className="mt-23.75 md:mt-24.5 xl:mt-45.75">
@@ -30,4 +30,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default About;

@@ -20,7 +20,7 @@ module.exports = {
       fontSize: {
         'custom-xs': '0.938rem',
         'custom-sm': '1.188rem',
-        'custom-md': '1.5rem',
+        'custom-md': ['1.5rem', { letterSpacing: '-0.015em' }],
         'custom-lg': '1.875rem',
         'custom-xl': '2.375rem',
         'custom-2xl': ['2.9375rem', { letterSpacing: '-0.015rem' }],
@@ -65,6 +65,7 @@ module.exports = {
         24.1: '6.0256rem',
         12.75: '3.1875rem',
         26.5: '6.625rem',
+        29.25: '7.3125rem',
         5.57: '1.4375rem',
         102: '25.5rem',
         25.5: '6.375rem',

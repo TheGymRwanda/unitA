@@ -9,7 +9,7 @@ function Projectcard({ title, description, link, image }) {
           <h1 className="text-custom-xl leading-14.25 lg:text-custom-3xl font-medium lg:font-semibold lg:leading-22.12 text-white ">
             {title}
           </h1>
-          <p className="text-custom-md -tracking-stretch leading-9 lg:text-custom-lg lg:leading-11 text-secondary-1 font-normal">
+          <p className="text-custom-md -tracking-stretch leading-9 lg:text-custom-lg lg:leading-11 text-secondary font-normal">
             {description}
           </p>
         </div>

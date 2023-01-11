@@ -8,7 +8,7 @@ function Index() {
   return (
     <>
       <Wrapper>
-        <div className="pb-2.5 md:pb-6 xl:pb-24">
+        <div className="pb-2.5 mt-11.25 md:mt-12 xl:mt-34.5 md:pb-6 xl:pb-24">
           <Title>Our Work</Title>
         </div>
       </Wrapper>

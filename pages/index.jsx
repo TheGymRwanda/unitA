@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React, { useEffect } from 'react';
+import Footer from '../components/layouts/Footer';
 import CallToAction from '../components/sections/homepage/CallToAction';
 import Projects from '../components/sections/homepage/Project';
 import Hero from '../components/sections/homepage/Hero';
@@ -32,12 +33,14 @@ const Home = () => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
       <Header />
       <Hero />
       <Projects />
       <Services />
       <Jobs />
       <CallToAction />
+      <Footer />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Hero from "../components/sections/homepage/Hero";
 import React, { useEffect } from "react";
 import Services from "../components/sections/homepage/Services";
 import "aos/dist/aos.css";
@@ -30,6 +31,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <Hero />
       <Services />
       <Jobs />
     </>

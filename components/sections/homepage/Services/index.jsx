@@ -6,10 +6,10 @@ import ServiceItem from './ServiceItem'
 
 const Services = () => {
   return (
-    <div className="mt-18.5 lg:mt-15 xl:mt-16">
+    <div className="mt-17.5 md:mt-15  xl:mt-16">
         <Wrapper>
             <Title>What we do</Title>
-            <div className="mt-26.75 flex flex-col gap-32">
+            <div className="pt-16.25 md:pt-20.5 xl:pt-31.25 flex flex-col gap-32">
                 {
                     services.map((ser, i) => i % 2 !== 0 ? {...ser, reverse: true, fadeDir: "right"}: {...ser, fadeDir: 'left'}).map((service, index) =>(
                         <ServiceItem {...service} key={index} index={index} />

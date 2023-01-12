@@ -8,7 +8,7 @@ import Services from "../components/sections/homepage/Services";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import Header from "../components/layouts/Header";
-import { Jobs, Partners } from "../components/sections";
+import { About, Jobs, Partners } from "../components/sections";
 const Home = () => {
   useEffect(() => {
     (() => {
@@ -36,6 +36,7 @@ const Home = () => {
 
       <Header />
       <Hero />
+      <About />
       <Projects />
       <Services />
       <Jobs />

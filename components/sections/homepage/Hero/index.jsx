@@ -1,10 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import Wrapper from "../../../layouts/Wrapper";
-const Index = () => {
+
+
+const Hero = () => {
   return (
     <Wrapper>
-      <div className="text-white relative mt-31.25 xl:mt-11.75">
+      <div className="text-white relative mt-31.25 xl:mt-11.75 leading-normal -tracking-stretch">
         <Image
           src="/assets/images/shape-2.webp"
           alt=""
@@ -14,28 +16,15 @@ const Index = () => {
         />
         <div className="font-semibold text-custom-xl sm:text-custom-3xl xl:mt-26.75 inline-block">
           A
-          <span className="relative ml-4.25">
+          <span className="relative ml-4.25 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain">
             joint-force b
-            <Image
-              src="/assets/icons/small-line.svg"
-              alt=""
-              className="absolute left-0 w-11.4/12 -bottom-1 md:-bottom-3"
-              width={314}
-              height={13.59}
-            />
           </span>
-          etween African & European developers & organizations working{" "}
-          <span className="block md:inline">in</span>
-          <span className="relative text-3xl h-fit w-fit sm:text-custom-3xl  block md:ml-4.25 md:inline-block">
-            blockchain technology
-            <Image
-              src="/assets/icons/large-line.svg"
-              alt=""
-              className="absolute w-11.8/12 -left-1 -bottom-1 md:-bottom-7 "
-              width={589}
-              height={14}
-            />
-          </span>
+          etween African & European developers & organizations working in{" "}
+          <div className="">
+            <span className="bg-hero-underline-2 bg-no-repeat bg-under pb-2 sm:pl-0.5 bg-contain sm:bg-auto">
+              blockchain technology
+            </span>
+          </div>
         </div>
 
         <Image
@@ -58,4 +47,4 @@ const Index = () => {
     </Wrapper>
   );
 };
-export default Index;
+export default Hero;

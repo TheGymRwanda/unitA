@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-underline-1': 'url(/assets/icons/small-line.svg)',
+        'hero-underline-2': 'url(/assets/icons/large-line.svg)'
+      },
+      backgroundPosition: {
+        under: 'bottom 0px right 15px'
+      },
       colors: {
         gray: {
           1: "#E5E5E5",

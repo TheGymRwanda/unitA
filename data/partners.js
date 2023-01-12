@@ -9,42 +9,60 @@ import bitlipa from "/public/assets/images/logo-bitlipa.webp";
 import unit8 from "/public/assets/images/logo-unit8.webp";
 
 const partners = [
-    {
-        name: "Celo",
-        image: celo
-    },
-    {
-        name: "Utu",
-        image: utu
-    },
-    {
-        name: "Tezos",
-        image: tezos
-    },
-    {
-        name: "Symplifi",
-        image: symplifi
-    },
-    {
-        name: "Giz",
-        image: giz
-    },
-    {
-        name: "Lab3",
-        image: lab3
-    },
-    {
-        name: "Atem",
-        image: atem
-    },
-    {
-        name: "Biltipa",
-        image: bitlipa
-    },
-    {
-        name: "Unit8",
-        image: unit8
-    }
+  {
+    name: "Celo",
+    image: celo,
+    width: 120,
+    height: 59,
+  },
+  {
+    name: "Utu",
+    image: utu,
+    width: 118,
+    height: 59,
+  },
+  {
+    name: "Tezos",
+    image: tezos,
+    width: 109,
+    height: 59,
+  },
+  {
+    name: "Symplifi",
+    image: symplifi,
+    width: 142,
+    height: 59,
+  },
+  {
+    name: "Giz",
+    image: giz,
+    width: 69,
+    height: 59,
+  },
+  {
+    name: "Lab3",
+    image: lab3,
+    width: 99,
+    height: 60,
+  },
+  {
+    name: "Atem",
+    image: atem,
+    width: 102,
+    height: 60,
+  },
+  {
+    name: "Biltipa",
+    image: bitlipa,
+    width: 135,
+    height: 59,
+  },
+  {
+    name: "Unit8",
+    image: unit8,
+    width: 124,
+    height: 60,
+  },
 ];
 
 export default partners;

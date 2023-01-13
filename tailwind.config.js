@@ -7,11 +7,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-underline-1': 'url(/assets/icons/small-line.svg)',
-        'hero-underline-2': 'url(/assets/icons/large-line.svg)'
+        "hero-underline-1": "url(/assets/icons/small-line.svg)",
+        "hero-underline-2": "url(/assets/icons/large-line.svg)",
       },
       backgroundPosition: {
-        under: 'bottom 0px right 15px'
+        under: "bottom 0px right 15px",
       },
       colors: {
         gray: {
@@ -94,7 +94,7 @@ module.exports = {
         4.12: "1.0813rem",
         10.3: "0.625rem",
         26: "6.5rem",
-        24.5:"6.125rem",
+        24.5: "6.125rem",
         41.25: "10.3125rem",
         29.25: "7.3125rem",
         8.75: "2.1875rem",
@@ -103,11 +103,15 @@ module.exports = {
         23.75: "5.9375rem",
         3.25: "0.8125rem",
         18.75: "4.6875rem",
-        41.75:"10.4375rem",
-        20.5:"5.125rem",
-        16.25:"4.0625rem",
-        17.5:"4.375rem"
-
+        41.75: "10.4375rem",
+        20.5: "5.125rem",
+        16.25: "4.0625rem",
+        17.5: "4.375rem",
+        69.5: "17.375rem",
+        44.75: "11.1875rem",
+        74.5: "18.625rem",
+        28.75: "7.1875rem",
+        6.5: "1.625rem",
       },
     },
   },

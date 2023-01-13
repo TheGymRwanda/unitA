@@ -6,7 +6,7 @@ import ServiceItem from './ServiceItem'
 
 const Services = () => {
   return (
-    <div className="mt-17.5 md:mt-15  xl:mt-16">
+    <div className="px-6.5 md:px-0 mt-17.5 md:mt-15  xl:mt-16">
         <Wrapper>
             <Title>What we do</Title>
             <div className="pt-16.25 md:pt-20.5 xl:pt-31.25 flex flex-col gap-32">

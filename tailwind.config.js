@@ -33,9 +33,9 @@ module.exports = {
         "custom-md": "1.5rem",
         "custom-lg": "1.875rem",
         "custom-xl": "2.375rem",
-        "custom-2xl": ["2.9375rem", { letterSpacing: "-0.015rem" }],
-        "custom-3xl": ["3.6875rem", { letterSpacing: "-0.015rem" }],
-        "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015rem" }],
+        "custom-2xl": ["2.9375rem", { letterSpacing: "-0.015em" }],
+        "custom-3xl": ["3.6875rem", { letterSpacing: "-0.015em" }],
+        "custom-4xl": ["4.5625rem", { letterSpacing: "-0.015em" }],
         "custom-5xl": "5.75rem",
       },
       maxWidth: {

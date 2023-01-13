@@ -10,7 +10,7 @@ const Partners = () => {
       <Wrapper>
         <div className="flex flex-col items-center">
           <Title>Partners</Title>
-          <div className="text-custom-md text-secondary text-center leading-normal">
+          <div className="mt-3 lg:mt-5.5 text-custom-md text-secondary text-center leading-normal">
             We partner with the leading brands
           </div>
           <div className="mt-3.25  xl:w-4/5 justify-center flex gap-y-4 gap-x-1.5 sm:gap-x-6 xl:gap-x-6 flex-wrap sm:justify-center">

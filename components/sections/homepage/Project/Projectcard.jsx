@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../../../ui/Button';
 import Image from 'next/image';
-function Projectcard({ title, description, link, image }) {
+const Projectcard = ({ title, description, link, image }) => {
   return (
     <div className='bg-primary-800 p-4 space-y-8 lg:p-8 xl:pr-0 xl:grid grid-cols-2 gap-x-5.57 place-items-center xl:pl-12.75 xl:pt-32.75 xl:pb-26.5 rounded-4xl mb-6 xl:mb-8'>
       <div className='md:max-w-141.75'>

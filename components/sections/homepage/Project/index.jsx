@@ -3,7 +3,7 @@ import { projects } from '../../../../data';
 import Wrapper from '../../../layouts/Wrapper';
 import Projectcard from './Projectcard';
 import Title from '../../../ui/Title';
-function Index() {
+const project=() => {
   return (
     <>
       <Wrapper>
@@ -19,4 +19,4 @@ function Index() {
     </>
   );
 }
-export default Index;
+export default project;

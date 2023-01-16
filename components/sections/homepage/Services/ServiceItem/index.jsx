@@ -9,7 +9,7 @@ const ServiceItem = ({ title, description, reverse, index, fadeDir, icon }) => {
       }`}
     >
       <div className='flex flex-col gap-4 md:w-2/3 xl:max-w-1/2'>
-        <div className='text-9.5 lg:text-11.75 text-white'>{title}</div>
+        <div className='text-9.5 lg:text-11.75 lg:-tracking-stretch text-white '>{title}</div>
         <div className='text-2xl text-secondary-400'>{description}</div>
       </div>
       <Image

@@ -39,7 +39,7 @@ module.exports = {
         '1.05/2': '55%',
       },
       screens: {
-        '1.5xl': '80.0625rem',
+        '1.1xl': '80.0625rem',
       },
       borderRadius: {
         '4xl': '2rem',
@@ -47,8 +47,8 @@ module.exports = {
       },
       lineHeight: {
         11: '2.8125rem',
-        22.12: '5.5313rem',
         14.25: '3.5625rem',
+        22.12: '5.5313rem',
         25: '150%',
       },
       letterSpacing: {

@@ -6,8 +6,7 @@ body {
 }
 
 @media screen and (max-width: 460px) {
-
-  [data-aos^="fade"] {
+  [data-aos^='fade'] {
     transform: none !important;
   }
 }

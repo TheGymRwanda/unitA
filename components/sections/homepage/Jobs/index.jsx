@@ -13,7 +13,7 @@ const Jobs = () => {
         <div className='flex flex-col border-t-2 border-primary-800 mt-14'>
           {jobs.map((job, index) => (
             <div className='flex justify-between py-6 border-b-2 border-primary-800 cursor-pointer group' key={index}>
-              <div className='text-custom-lg sm:text-custom-xl font-medium text-white'>{job}</div>
+              <div className='text-7.5 sm:text-9.5 font-medium text-white'>{job}</div>
               <Image src={arrow} alt='arrow' className='group-hover:rotate-45 transition-transform' />
             </div>
           ))}

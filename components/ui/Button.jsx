@@ -8,7 +8,7 @@ const Button = ({ children, link = '#', target, size = 'normal' }) => {
     <Link href={link} target={target}>
       <div
         className={`bg-white text-black -tracking-stretch flex w-fit px-[35px] lg:px-12 gap-6 group ${
-          size === 'large' ? 'py-4 text-3xl leading-11 rounded-5xl' : 'py-3 leading-9 text-custom-md rounded-4xl'
+          size === 'large' ? 'py-4 text-3xl leading-11 rounded-5xl' : 'py-3 leading-9 text-2xl rounded-4xl'
         }`}
       >
         {children}

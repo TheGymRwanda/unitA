@@ -5,7 +5,7 @@ import Wrapper from './Wrapper';
 const Footer = () => {
   return (
     <Wrapper size='small'>
-      <div className='flex flex-col gap-2.5 lg:gap-0 lg:flex-row justify-between xl:mt-39.75 lg:mt-41.25 mt-26 lg:mb-26 mb-8 text-custom-lg'>
+      <div className='flex flex-col gap-2.5 lg:gap-0 lg:flex-row justify-between xl:mt-39.75 lg:mt-41.25 mt-26 lg:mb-26 mb-8 text-7.5'>
         <div>
           <ul className='space-y-0.25'>
             <li>Ape Unit GmbH</li>

@@ -36,7 +36,7 @@ const Footer = () => {
           <p>
             <Link href='https://apeunit.com/impressum.txt' target='_blank'>
               Impressum
-            </Link>{' '}
+            </Link>
             /
             <span>
               <Link href='https://apeunit.com/datenschutz.txt' target='_blank'>

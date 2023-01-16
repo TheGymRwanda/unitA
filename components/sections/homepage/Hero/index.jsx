@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div className='font-semibold text-9.5 sm:text-14.75 sm:-tracking-stretch  inline-block'>
           A
-          <span className='relative ml-4.25 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain'>
+          <span className='relative ml-2.5 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain'>
             joint-force b
           </span>
           etween African & European developers & organizations working in{' '}

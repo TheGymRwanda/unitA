@@ -5,7 +5,7 @@ import Button from '../../../ui/Button';
 const CallToAction = () => {
   return (
     <Wrapper size='small'>
-      <div className='h-max bg-gray-8 rounded-4xl lg:py-16 py-5.5  px-5.5 flex flex-col items-center mt-32'>
+      <div className='h-max bg-primary-800 rounded-4xl lg:py-16 py-5.5  px-5.5 flex flex-col items-center mt-32'>
         <h1 className='lg:text-custom-3xl text-custom-2xl font-semibold text-center'>
           Ready to talk about your project?
         </h1>

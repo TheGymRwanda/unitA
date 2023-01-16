@@ -15,7 +15,7 @@ const Home = () => {
       if (window?.document) {
         Aos.init({
           duration: 800,
-          offset: 200
+          offset: 200,
         });
       }
     })();

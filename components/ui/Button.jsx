@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import arrow from "/public/assets/icons/arrow.svg";
 import classNames from "classnames";
 const Button = ({ children, link = "#", target, size = "normal" }) => {
   const buttonStyle = classNames(
@@ -15,7 +14,9 @@ const Button = ({ children, link = "#", target, size = "normal" }) => {
       <div className={buttonStyle}>
         {children}
         <Image
-          src={arrow}
+          src={"/icons/arrow.svg"}
+          width={28}
+          height={28}
           alt="arrow"
           className="group-hover:rotate-45 transition-transform"
         />

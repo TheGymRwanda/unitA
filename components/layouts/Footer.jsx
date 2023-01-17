@@ -1,7 +1,5 @@
 import Link from "next/link";
-import React from "react";
 import Wrapper from "./Wrapper";
-
 const Footer = () => {
   return (
     <Wrapper size="small">

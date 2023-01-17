@@ -8,7 +8,7 @@ import atem from "/public/assets/images/logo-atem.webp";
 import bitlipa from "/public/assets/images/logo-bitlipa.webp";
 import unit8 from "/public/assets/images/logo-unit8.webp";
 
-const partners = [
+const PARTNERS = [
   {
     name: "Celo",
     image: celo,
@@ -65,4 +65,4 @@ const partners = [
   },
 ];
 
-export default partners;
+export default PARTNERS;

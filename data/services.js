@@ -2,7 +2,7 @@ import shape0 from "/public/assets/images/shape-1.webp";
 import shape1 from "/public/assets/images/shape-2.webp";
 import shape2 from "/public/assets/images/shape-3.webp";
 import shape3 from "/public/assets/images/shape-4.webp";
-const services = [
+const SERVICES = [
   {
     title: "Blockchain is the internet for cooperation",
     description:
@@ -29,4 +29,4 @@ const services = [
   },
 ];
 
-export default services;
+export default SERVICES;

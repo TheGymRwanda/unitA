@@ -15,7 +15,7 @@ const Home = () => {
       if (window?.document) {
         Aos.init({
           duration: 800,
-          offset: 200
+          offset: 200,
         });
       }
     })();
@@ -33,7 +33,6 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
       <Hero />
       <About />

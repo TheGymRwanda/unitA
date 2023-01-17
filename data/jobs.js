@@ -1,3 +1,8 @@
-const jobs = ['Business Analyst', 'Frontend Engineer', 'Python Developer', 'Senior Project Manager'];
+const JOBS = [
+  "Business Analyst",
+  "Frontend Engineer",
+  "Python Developer",
+  "Senior Project Manager",
+];
 
-export default jobs;
+export default JOBS;

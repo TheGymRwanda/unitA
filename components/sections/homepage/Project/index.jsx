@@ -1,8 +1,8 @@
 import { PROJECT } from '/data';
-import Wrapper from '/components/layouts/Wrapper';
+import {Wrapper} from '/components/layouts';
+import {Title} from '/components/ui';
 import Projectcard from './Projectcard';
-import Title from '/components/ui/Title';
-const project = () => {
+const Project = () => {
   return (
     <>
       <Wrapper>
@@ -18,4 +18,4 @@ const project = () => {
     </>
   );
 };
-export default project;
+export default Project;

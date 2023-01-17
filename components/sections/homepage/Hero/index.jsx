@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import Wrapper from '/components/layouts/Wrapper';
+import {Wrapper} from '/components/layouts';
 
 const Hero = () => {
   return (
     <Wrapper>
       <div className='text-white relative mt-31.25 xl:mt-41.75 leading-normal -tracking-stretch'>
         <Image
-          src='/assets/images/shape-2.webp'
+          src='/images/shape-2.webp'
           alt='circle shape'
           width={103.4}
           height={103.4}
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
 
         <Image
-          src='/assets/images/shape-1.webp'
+          src='/images/shape-1.webp'
           alt='polgon shape'
           width={83}
           height={79}
@@ -35,7 +35,7 @@ const Hero = () => {
         />
         <div className='flex items-center justify-center'>
           <Image
-            src='/assets/icons/arrow-up-line.svg'
+            src='/icons/arrow-up-line.svg'
             className='mt-30.25 md:mt-32.75 xl:mt-29.25 '
             height={42}
             width={44}

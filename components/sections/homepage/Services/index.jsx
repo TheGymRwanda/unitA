@@ -1,6 +1,6 @@
 import { SERVICES } from '/data';
-import Wrapper from '/components/layouts/Wrapper';
-import Title from '/components/ui/Title';
+import {Wrapper }from '/components/layouts';
+import {Title }from '/components/ui';
 import ServiceItem from './ServiceItem';
 const Services = () => {
   return (

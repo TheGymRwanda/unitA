@@ -1,5 +1,5 @@
-import Wrapper from '/components/layouts/Wrapper';
-import Button from '/components/ui/Button';
+import {Wrapper} from '/components/layouts';
+import {Button} from '/components/ui';
 
 const CallToAction = () => {
   return (

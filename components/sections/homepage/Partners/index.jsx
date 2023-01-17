@@ -1,8 +1,8 @@
 import Image from 'next/image';
+import Link from "next/link";
 import { PARTNERS } from '/data';
-import Wrapper from '/components/layouts/Wrapper';
-import Title from '/components/ui/Title';
-import Link from 'next/link';
+import {Wrapper} from '/components/layouts';
+import {Title} from '/components/ui';
 
 const Partners = () => {
   return (

@@ -5,8 +5,8 @@ import { Title } from "/components/ui";
 
 const Jobs = () => {
   return (
-    <div className="mt-25.5 md:mt-24.1 xl:mt-52.75">
-      <Wrapper>
+    <Wrapper>
+      <div className='mt-25.5 md:mt-24.1 xl:mt-52.75'>
         <Title>Join Our Team</Title>
         <div className="flex flex-col border-t-2 border-primary-800 mt-14">
           {JOBS.map((job, index) => (
@@ -27,8 +27,8 @@ const Jobs = () => {
             </div>
           ))}
         </div>
-      </Wrapper>
-    </div>
+      </div>
+    </Wrapper>
   );
 };
 

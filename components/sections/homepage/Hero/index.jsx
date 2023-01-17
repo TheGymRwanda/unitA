@@ -19,7 +19,7 @@ const Hero = () => {
             className="absolute -top-28 right-0 hidden xl:block"
           />
 
-          <div className="font-semibold text-9.5 sm:text-14.75 sm:-tracking-stretch  inline-block">
+          <div className="font-semibold text-9.5 sm:text-14.75 sm:-tracking-stretch inline-block">
             A
             <span className="relative ml-2.5 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain">
               joint-force b

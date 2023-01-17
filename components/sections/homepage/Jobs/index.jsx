@@ -1,13 +1,13 @@
 import Image from "next/image";
 import { JOBS } from "/data";
 import { Wrapper } from "/components/layouts";
-import { Title } from "/components/ui";
+import { Heading } from "/components/ui";
 
 const Jobs = () => {
   return (
     <Wrapper>
-      <div className='mt-25.5 md:mt-24.1 xl:mt-52.75'>
-        <Title>Join Our Team</Title>
+      <div className="mt-25.5 md:mt-24.1 xl:mt-52.75">
+        <Heading>Join Our Team</Heading>
         <div className="flex flex-col border-t-2 border-primary-800 mt-14">
           {JOBS.map((job, index) => (
             <div

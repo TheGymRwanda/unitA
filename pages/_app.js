@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
-import localFont from "@next/font/local";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "/styles/globals.css";
-const neufileGrotesk = localFont({
-  src: "../public/fonts/NeufileGrotesk-Regular.woff2",
-});
+import font from "/config/font";
 
 const App = ({ Component, pageProps }) => {
   useEffect(() => {
@@ -32,7 +29,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={neufileGrotesk.className}>
+      <main className={font.className}>
         <Component {...pageProps} />
       </main>
     </>

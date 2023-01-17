@@ -1,4 +1,4 @@
-import { Header, Footer } from "../components/layouts";
+import { Footer } from "../components/layouts";
 import {
   Hero,
   About,
@@ -11,7 +11,6 @@ import {
 const Home = () => {
   return (
     <>
-      <Header />
       <Hero />
       <About />
       <Project />

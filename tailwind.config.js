@@ -39,18 +39,16 @@ module.exports = {
         '1.05/2': '55%',
       },
       screens: {
-        '-1.xl': '1279px',
-        '1.1xl': '80.0625rem',
+        '1.1xl': '80.0625rem'
       },
       borderRadius: {
         '4xl': '2rem',
-        '5xl': '2.8125rem',
+        '5xl': '2.8125rem'
       },
       lineHeight: {
         11: '2.8125rem',
         14.25: '3.5625rem',
-        22.12: '5.5313rem',
-        25: '150%',
+        22.12: '5.5313rem'
       },
       letterSpacing: {
         stretch: '0.015em',

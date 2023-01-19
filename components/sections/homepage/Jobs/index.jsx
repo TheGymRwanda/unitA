@@ -8,7 +8,7 @@ const Jobs = () => {
     <Wrapper>
       <div className="mt-25.5 md:mt-24.1 xl:mt-52.75">
         <Heading>Join Our Team</Heading>
-        <div className="flex flex-col border-t-2 border-primary-800 mt-14">
+        <div className="flex flex-col border-t-2 border-primary-800 mt-17.75">
           {JOBS.map((job, index) => (
             <div
               className="flex justify-between py-6 border-b-2 border-primary-800 cursor-pointer group"

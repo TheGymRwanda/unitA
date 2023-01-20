@@ -15,7 +15,7 @@ const Partners = () => {
         <div className="mt-3.25 xl:w-4/5 justify-center flex gap-y-4 gap-x-1.5 sm:gap-x-6 xl:gap-x-6 flex-wrap sm:justify-center">
           {PARTNERS.map(({ image, name, width, height, link }, index) => (
             <div key={index}>
-              <Link href={link} target={"_blank"}>
+              <Link href={link} target="_blank">
                 <Image
                   src={image}
                   alt={name}

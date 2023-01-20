@@ -1,6 +1,6 @@
 # Unit A landing page
 
-_This project is a landing page for a branch of __APE UNIT__ company which is an international tech company based in Germany_
+_This project is a landing page for a branch of [__APE UNIT__](https://apeunit.com/) (__Unit A__) which is a joint-force between African & European developers & organizations working in blockchain technology_
 
 ## Live version
 
@@ -47,4 +47,9 @@ There you go 😊, You can preview the project on [http://localhost:3000](http:/
 
 ## Authors
 
-This amazing job was done by a team called __Antelope__ composed of 4 cool persons inside **_Thegym Organization_** 
+This job was done by a team called __Antelope__ composed of 4 cool people inside **_Thegym Organization_** :
+
+- [Merci Jacob](https://github.com/jacob-js)
+- [Hirwa Aldo](https://github.com/hirwaaldo1)
+- [Mutesi Aline](https://github.com/mutesialine)
+- [John Uwimana](https://github.com/arjorb)

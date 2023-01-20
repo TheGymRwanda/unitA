@@ -23,8 +23,7 @@ const App = ({ Component, pageProps }) => {
         <title>Unit A</title>
         <meta
           name="description"
-          content="Ape Unit was founded in 2010 in Berlin. Since 2017 Ape Unit's
-                  Unit 8 has been working in the field of blockchain technology."
+          content="Unit A is a joint-force between African & European developers & organizations working in blockchain technology"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

@@ -9,7 +9,7 @@ const Hero = () => {
           Unit A
         </h1>
       </header>
-      <div className="xl:px-20 sm:px-11.5">
+      <div className="xl:px-20">
         <div className="text-white relative mt-31.25 xl:mt-41.75 leading-normal -tracking-stretch">
           <Image
             src="/images/shape-2.webp"

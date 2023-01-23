@@ -12,7 +12,7 @@ const Partners = () => {
         <div className="mt-3 lg:mt-5.5 text-2xl text-secondary-400 text-center leading-normal">
           We partner with the leading brands
         </div>
-        <div className="mt-3.25 xl:w-4/5 justify-center flex gap-y-4 gap-x-1.5 sm:gap-x-6 xl:gap-x-6 flex-wrap sm:justify-center">
+        <div className="mt-3.25 md:w-4/5 lg:w-4/5 justify-center flex gap-y-4 gap-x-6 xl:gap-x-8 flex-wrap">
           {PARTNERS.map(({ image, name, width, height, link }, index) => (
             <div key={index}>
               <Link href={link} target="_blank">
@@ -21,7 +21,7 @@ const Partners = () => {
                   alt={name}
                   width={width}
                   height={height}
-                  className="h-9 w-18.75 object-contain xl:w-auto xl:h-auto xl:min-w-min xl:object-cover"
+                  className="xl:object-cover"
                 />
               </Link>
             </div>

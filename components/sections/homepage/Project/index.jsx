@@ -9,7 +9,7 @@ const Project = () => {
       <div className="pb-2.5 mt-11.25 md:mt-12 xl:mt-36 md:pb-6 xl:pb-28.75">
         <Heading>Our Work</Heading>
       </div>
-      <div className="mt-6.25 lg:px-11.5 1.1xl:px-0 md:mt-0 xl:-mx-20">
+      <div className="mt-6.25 lg:px-11.5 xl:px-0 md:mt-0 xl:-mx-20">
         {PROJECT.map((element, index) => (
           <Projectcard {...element} key={index} />
         ))}

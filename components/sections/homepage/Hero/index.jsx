@@ -24,12 +24,7 @@ const Hero = () => {
             <span className="relative ml-2.5 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain">
               joint-force b
             </span>
-            etween African & European developers & organizations working in
-            <div className="bg-transparent">
-              <span className="bg-hero-underline-2 bg-no-repeat bg-under pb-2 sm:pl-0.5 bg-contain sm:bg-auto">
-                blockchain technology
-              </span>
-            </div>
+            etween African & European developers & organizations working in blockchain technology
           </div>
 
           <Image

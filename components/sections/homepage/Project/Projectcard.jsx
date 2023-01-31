@@ -2,7 +2,7 @@ import Image from 'next/image';
 import {Button} from '/components/ui';
 const Projectcard = ({ title, description, link, image, width, height }) => {
   return (
-    <div className='bg-primary-800 p-4 space-y-8 lg:p-8 xl:pr-0 xl:grid grid-cols-2 gap-x-5.57 place-items-center xl:pl-12.75 xl:pt-32.75 xl:pb-26.5 rounded-4xl mb-6 xl:mb-8'>
+    <div className='bg-primary-800 p-4 xl:h-170 w-full space-y-8 lg:p-8 xl:pr-0 xl:grid grid-cols-2 gap-x-5.57 place-items-center xl:pl-12.75 xl:pt-32.75 xl:pb-26.5 rounded-4xl mb-6 xl:mb-8'>
       <div className='md:max-w-141.75'>
         <div className='pb-6'>
           <h1 className='text-9.5 leading-14.25 lg:text-14.75 lg:-tracking-stretch font-medium lg:font-semibold lg:leading-22.12 text-white '>
@@ -12,9 +12,7 @@ const Projectcard = ({ title, description, link, image, width, height }) => {
             {description}
           </p>
         </div>
-        <Button target='_blank' link={link}>
-          Visit
-        </Button>
+        <Button target='_blank' link={link}>Visit</Button>
       </div>
       <Image
         src={image}

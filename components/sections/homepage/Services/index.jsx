@@ -8,7 +8,7 @@ const Services = () => {
     <Wrapper>
       <div className="px-6.5 md:px-0 mt-2.75 md:mt-15 xl:mt-16">
         <Heading>What we do</Heading>
-        <div className="pt-9 md:pt-20.5 xl:pt-26.75 flex flex-col gap-32">
+        <div className="pt-9 md:pt-20.5 xl:pt-26.75 flex flex-col gap-16 md:gap-32">
           {SERVICES.map((element, key) =>
             key % 2 !== 0
               ? { ...element, reverse: true, fadeDir: "right" }

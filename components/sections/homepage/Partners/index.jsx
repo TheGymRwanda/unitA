@@ -7,7 +7,7 @@ import { Heading } from "/components/ui";
 const Partners = () => {
   return (
     <Wrapper>
-      <div className="flex flex-col items-center mt-29.25">
+      <div className="flex flex-col items-center mt-12 md:mt-33">
         <Heading>Partners</Heading>
         <div className="mt-3 md:mt-5.5 text-lg md:text-2xl text-secondary-400 text-center md:leading-7.5">
           We partner with the leading brands

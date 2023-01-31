@@ -14,7 +14,7 @@ const Hero = () => {
             alt="circle shape"
             width={103.4}
             height={103.4}
-            className="absolute -top-28 right-0 hidden xl:block"
+            className="absolute -top-10 md:-top-28 right-0 h-10.2 w-10.2 md:w-25.85 md:h-25.85"
           />
           <div className="font-semibold text-9.5 sm:text-14.75 sm:-tracking-stretch inline-block">
             A
@@ -28,7 +28,7 @@ const Hero = () => {
             alt="polgon shape"
             width={83}
             height={79}
-            className="absolute -left-14 -bottom-5 hidden xl:block"
+            className="absolute bottom-5 -left-2 xl:-left-14 md:-bottom-5 block h-9 w-9 md:w-auto md:h-auto"
           />
           <div className="flex items-center justify-center">
             <Image

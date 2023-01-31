@@ -5,9 +5,7 @@ const Hero = () => {
   return (
     <Wrapper size="small">
       <header className="text-white mt-9.25">
-        <h1 className="text-11.75 font-semibold -tracking-stretch leading-normal">
-          Unit A
-        </h1>
+        <h1 className="text-11.75 font-semibold -tracking-stretch leading-normal">Unit A</h1>
       </header>
       <div className="xl:px-20">
         <div className="text-white relative mt-31.25 xl:mt-41.75 leading-normal -tracking-stretch">
@@ -18,7 +16,6 @@ const Hero = () => {
             height={103.4}
             className="absolute -top-28 right-0 hidden xl:block"
           />
-
           <div className="font-semibold text-9.5 sm:text-14.75 sm:-tracking-stretch inline-block">
             A
             <span className="relative ml-2.5 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain">
@@ -26,7 +23,6 @@ const Hero = () => {
             </span>
             etween African & European developers & organizations working in blockchain technology
           </div>
-
           <Image
             src="/images/shape-1.webp"
             alt="polgon shape"

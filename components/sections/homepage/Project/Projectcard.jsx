@@ -12,9 +12,7 @@ const Projectcard = ({ title, description, link, image, width, height }) => {
             {description}
           </p>
         </div>
-        <Button target='_blank' link={link}>
-          Visit
-        </Button>
+        <Button target='_blank' link={link}>Visit</Button>
       </div>
       <Image
         src={image}

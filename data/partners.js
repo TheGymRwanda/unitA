@@ -3,8 +3,8 @@ const PARTNERS = [
     name: "Celo",
     image: "/images/logo-celo.webp",
     link: "https://celo.org/",
-    width: 120,
-    height: 59,
+    width: 119.25,
+    height: 26.95,
   },
   {
     name: "Utu",

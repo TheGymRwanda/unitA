@@ -1,15 +1,15 @@
-import { PROJECT } from '/data';
-import { Wrapper } from '/components/layouts';
-import { Heading } from '/components/ui';
-import Projectcard from './Projectcard';
+import { PROJECT } from "/data";
+import { Wrapper } from "/components/layouts";
+import { Heading } from "/components/ui";
+import Projectcard from "./Projectcard";
 
 const Project = () => {
   return (
-    <Wrapper size='small'>
-      <div className='pb-2.5 mt-11.25 md:mt-12 xl:w-93/100 mx-auto xl:mt-36 md:pb-6 xl:pb-28.75'>
+    <Wrapper size="small">
+      <div className="pb-4 mt-9.75 md:mt-12 xl:w-93/100 mx-auto xl:mt-30.25 md:pb-8.25">
         <Heading>Our Work</Heading>
       </div>
-      <div className='mt-6.25 md:mt-0'>
+      <div>
         {PROJECT.map((element, index) => (
           <Projectcard {...element} key={index} />
         ))}

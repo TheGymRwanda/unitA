@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import classNames from 'classnames';
 const ServiceItem = ({ title, description, reverse, index, fadeDir, icon, width, height }) => {
-  const serviceStyle = classNames('flex flex-col-reverse gap-8 justify-between leading-normal', {
+  const serviceStyle = classNames('flex flex-col-reverse gap-4 justify-between leading-normal', {
     'sm:flex-row-reverse': reverse,
     'sm:flex-row': !reverse,
   });

@@ -4,7 +4,7 @@ import { Button } from '/components/ui';
 const CallToAction = () => {
   return (
     <Wrapper size='small'>
-      <div className='h-max bg-primary-800 rounded-4xl lg:py-16 py-5.5 px-5.5 flex flex-col items-center mt-32'>
+      <div className='h-max bg-primary-800 rounded-4xl lg:py-16 py-5.5 px-5.5 flex flex-col items-center mt-12 md:mt-32'>
         <h1 className='md:text-11.75 text-6.5 font-normal text-center leading-10 md:leading-14.75 -tracking-stretcher'>
           Ready to talk about your project?
         </h1>

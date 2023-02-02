@@ -4,13 +4,13 @@ import { Wrapper } from "/components/layouts";
 const Hero = () => {
   return (
     <Wrapper size="small">
-      <header className="text-white mt-9.25">
+      <header className="text-white mt-9.25 md:mt-7">
         <h1 className="text-7.25 md:text-14.75 font-medium md:font-normal -tracking-stretcher leading-normal">
           Unit A
         </h1>
       </header>
       <div className="xl:px-20">
-        <div className="text-white relative mt-31.25 xl:mt-41.75 leading-normal -tracking-stretcher">
+        <div className="text-white relative mt-13.5 md:mt-39.5 leading-normal -tracking-stretcher">
           <Image
             src="/images/shape-2.webp"
             alt="circle shape"

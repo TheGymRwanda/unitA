@@ -5,11 +5,11 @@ import Projectcard from "./Projectcard";
 
 const Project = () => {
   return (
-    <Wrapper>
-      <div className="pb-4 mt-9.75 md:mt-12 xl:mt-30.25 md:pb-8.25">
+    <Wrapper size="small">
+      <div className="pb-4 mt-9.75 md:mt-12 xl:w-93/100 mx-auto xl:mt-30.25 md:pb-8.25">
         <Heading>Our Work</Heading>
       </div>
-      <div className="lg:px-11.5 xl:px-0 xl:-mx-20">
+      <div>
         {PROJECT.map((element, index) => (
           <Projectcard {...element} key={index} />
         ))}

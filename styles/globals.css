@@ -10,3 +10,10 @@ body {
     transform: none !important;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  [data-aos^='fade-left'],
+  [data-aos^='fade-right'] {
+    transform: translate3d(40px, 0, 0) !important;
+  }
+}

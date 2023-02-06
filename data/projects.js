@@ -4,7 +4,7 @@ const PROJECT = [
     description:
       "A pioneering technology company specializing in decentralized technologies that creates end-to-end digital experiences for protocols including Ethereum, Tezos, Near, Algorand, Celo and more.",
     imageName: "unit8",
-    link: "https://u8-landing.netlify.app/",
+    link: "https://unit8.apeunit.com/",
     image: "/images/unit8.webp",
     width: 630,
     height: 408,
@@ -13,7 +13,7 @@ const PROJECT = [
     title: "Lab3",
     description: "A web3 knowledge exchange community for music makers",
     imageName: "lab3",
-    link: "http://lab3.space/",
+    link: "https://lab3.space/",
     image: "/images/lab3.webp",
     width: 639,
     height: 390,

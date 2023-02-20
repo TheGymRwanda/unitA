@@ -15,7 +15,7 @@ const Button = ({ children, link = '#', target, size = 'normal' }) => {
           width={28}
           height={28}
           alt='arrow'
-          className='group-hover:rotate-45 transition-transform'
+          className='group-hover:rotate-45 transition-transform leading-6.75 lg:leading-7.5 -tracking-stretch'
         />
       </div>
     </Link>

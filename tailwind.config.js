@@ -48,6 +48,7 @@ module.exports = {
         "5xl": "2.8125rem",
       },
       lineHeight: {
+        6.75: "1.6875rem",
         7.5: "1.875rem",
         9.5: "2.375rem",
         11: "2.8125rem",

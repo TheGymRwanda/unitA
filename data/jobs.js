@@ -1,6 +1,6 @@
 const JOBS = [
   {
-    title: "Frontend Engineer",
+    title: "Senior Frontend Developer",
     link: "https://apeunit.notion.site/Senior-Frontend-Developer-042048a56ba54beebefc4e51f67a5925",
   },
 ];

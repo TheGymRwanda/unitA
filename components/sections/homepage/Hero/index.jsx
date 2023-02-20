@@ -9,7 +9,7 @@ const Hero = () => {
           Unit A
         </h1>
       </header>
-      <div className="xl:w-93/100 mx-auto">
+      <div className="xl:w-92/100 mx-auto">
         <div className="text-white relative mt-13.5 md:mt-39.5 leading-normal -tracking-stretcher">
           <Image
             src="/images/shape-2.webp"
@@ -20,10 +20,10 @@ const Hero = () => {
           />
           <div className="font-medium md:font-normal text-7.25 sm:text-14.75 sm:-tracking-stretch inline-block">
             A
-            <span className="relative ml-2.5 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain">
-              joint-force b
+            <span className="relative mx-2.5 bg-hero-underline-1 bg-no-repeat bg-bottom pb-2 bg-contain">
+              joint-force
             </span>
-            etween African & European developers & organizations working in
+            between African & European developers & organizations working in
             blockchain technology
           </div>
           <Image

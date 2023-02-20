@@ -4,7 +4,7 @@ import { Heading, Button } from "/components/ui";
 const About = () => {
   return (
     <Wrapper>
-      <div className="mt-9.75 md:mt-24.4 xl:mt-45.75">
+      <div className="mt-9.75 md:mt-24.4 xl:mt-39.25">
         <Heading>Who we are</Heading>
         <div className="xl:mt-0 pb-5 md:py-4.5 text-5.75 font-normal text-secondary-400 md:text-9.5 leading-9 md:leading-12.25 -tracking-stretch mt-5.75 md:mt-0">
           <p className="md:pb-6">

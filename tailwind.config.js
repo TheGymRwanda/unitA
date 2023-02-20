@@ -61,6 +61,7 @@ module.exports = {
       letterSpacing: {
         stretch: "0.015em",
         stretcher: "0.02em",
+        stretchiest: "0.125em",
       },
       spacing: {
         0.25: ".0625rem",

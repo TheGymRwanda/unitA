@@ -15,7 +15,7 @@ const ServiceItem = ({ title, description, reverse, index, fadeDir, icon, width,
     <div className={serviceStyle}>
       <div className='flex flex-col gap-4 md:w-2/3 xl:max-w-1/2'>
         <div className='text-5.75 md:text-9.5 -tracking-stretch text-white leading-9 md:leading-12.25'>{title}</div>
-        <div className='text-lg md:text-2xl md:leading-7.5 text-secondary-400'>{description}</div>
+        <div className='text-lg -tracking-stretch leading-6.75 md:text-2xl md:leading-7.5 lg:leading-7.5 text-secondary-400'>{description}</div>
       </div>
       <Image src={icon} alt='icon' width={width} height={height} className={imageStyle} data-aos={`fade-${fadeDir}`} />
     </div>

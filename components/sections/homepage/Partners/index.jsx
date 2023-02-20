@@ -9,10 +9,10 @@ const Partners = () => {
     <Wrapper>
       <div className="flex flex-col items-center mt-12 md:mt-33">
         <Heading>Partners</Heading>
-        <div className="mt-3 md:mt-5.5 text-lg md:text-2xl text-secondary-400 text-center md:leading-7.5">
+        <div className="text-lg md:text-2xl text-secondary-400 text-center md:leading-7.5">
           We partner with the leading brands
         </div>
-        <div className="mt-3.25 md:w-7/10 items-center justify-center flex gap-y-4 gap-x-6 flex-wrap">
+        <div className="mt-6 lg:mt-5 md:w-7/10 items-center justify-center flex gap-y-4 gap-x-6 flex-wrap">
           {PARTNERS.map(({ image, name, width, height, link }, index) => (
             <div key={index}>
               <Link href={link} target="_blank">

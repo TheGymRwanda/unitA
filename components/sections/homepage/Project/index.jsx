@@ -1,7 +1,7 @@
-import { PROJECT } from "/data";
+import { PROJECTS } from "/data";
 import { Wrapper } from "/components/layouts";
 import { Heading } from "/components/ui";
-import Projectcard from "./Projectcard";
+import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
@@ -10,8 +10,8 @@ const Project = () => {
         <Heading>Our Work</Heading>
       </div>
       <div>
-        {PROJECT.map((element, index) => (
-          <Projectcard {...element} key={index} />
+        {PROJECTS.map((element, index) => (
+          <ProjectCard {...element} key={index} />
         ))}
       </div>
     </Wrapper>

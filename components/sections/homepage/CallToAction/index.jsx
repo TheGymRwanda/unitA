@@ -1,5 +1,5 @@
 import { Wrapper } from "/components/layouts";
-import { Button } from "/components/ui";
+import { LinkButton } from "/components/ui";
 
 const CallToAction = () => {
   return (
@@ -14,9 +14,13 @@ const CallToAction = () => {
           something amazing together.
         </p>
         <div className="text-black pt-8 md:pt-16">
-          <Button size="large" target="_blank" link="mailto:u2467@apeunit.com">
+          <LinkButton
+            size="large"
+            target="_blank"
+            link="mailto:u2467@apeunit.com"
+          >
             Schedule a call
-          </Button>
+          </LinkButton>
         </div>
       </div>
     </Wrapper>

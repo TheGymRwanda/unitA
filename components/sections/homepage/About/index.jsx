@@ -1,5 +1,5 @@
 import { Wrapper } from "/components/layouts";
-import { Heading, Button } from "/components/ui";
+import { Heading, LinkButton } from "/components/ui";
 
 const About = () => {
   return (
@@ -20,9 +20,9 @@ const About = () => {
             work in blockchain technology.
           </p>
         </div>
-        <Button link="mailto:u2467@apeunit.com" target="_blank">
+        <LinkButton link="mailto:u2467@apeunit.com" target="_blank">
           Contact us
-        </Button>
+        </LinkButton>
       </div>
     </Wrapper>
   );

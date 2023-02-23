@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
-const Button = ({ children, link = "#", target, size = "normal" }) => {
+const LinkButton = ({ children, link = "#", target, size = "normal" }) => {
   const buttonStyle = classNames(
     "bg-white text-black flex w-fit px-8.75 lg:px-12 gap-6 group",
     {
@@ -27,4 +27,4 @@ const Button = ({ children, link = "#", target, size = "normal" }) => {
   );
 };
 
-export default Button;
+export default LinkButton;

@@ -1,4 +1,4 @@
-const PROJECT = [
+const PROJECTS = [
   {
     title: "Unit 8",
     description:
@@ -19,4 +19,4 @@ const PROJECT = [
     height: 390,
   },
 ];
-export default PROJECT;
+export default PROJECTS;

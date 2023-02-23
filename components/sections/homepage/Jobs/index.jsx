@@ -7,7 +7,7 @@ import Link from "next/link";
 const Jobs = () => {
   return (
     <Wrapper>
-      <div className="mt-10.5 md:mt-24.1 xl:mt-52.75">
+      <div className="mt-10.2 md:mt-24.1 xl:mt-52.75">
         <Heading>Join Our Team</Heading>
         <div className="flex flex-col border-t-2 border-primary-800 mt-6 md:mt-10">
           {JOBS.map((job, index) => (

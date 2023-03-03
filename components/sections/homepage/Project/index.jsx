@@ -1,17 +1,17 @@
-import { PROJECT } from "/data";
+import { PROJECTS } from "/data";
 import { Wrapper } from "/components/layouts";
 import { Heading } from "/components/ui";
-import Projectcard from "./Projectcard";
+import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <Wrapper>
-      <div className="pb-2.5 mt-11.25 md:mt-12 xl:mt-36 md:pb-6 xl:pb-28.75">
+    <Wrapper size="small">
+      <div className="pb-4 mt-9.75 md:mt-12 xl:w-93/100 mx-auto xl:mt-30.25 md:pb-8.25">
         <Heading>Our Work</Heading>
       </div>
-      <div className="mt-6.25 lg:px-11.5 xl:px-0 md:mt-0 xl:-mx-20">
-        {PROJECT.map((element, index) => (
-          <Projectcard {...element} key={index} />
+      <div>
+        {PROJECTS.map((element, index) => (
+          <ProjectCard {...element} key={index} />
         ))}
       </div>
     </Wrapper>

@@ -4,13 +4,13 @@ import Wrapper from "./Wrapper";
 const Footer = () => {
   return (
     <Wrapper size="small">
-      <div className="flex flex-col gap-13 lg:gap-0 lg:flex-row justify-between xl:mt-39.75 lg:mt-41.25 mt-26 lg:mb-26 mb-8 text-7.5">
-        <ul className="space-y-0.25">
+      <div className="flex flex-col gap-13 md:gap-0 md:flex-row justify-between md:mt-42 mt-10.2 md:mb-31.25 mb-8 md:text-7.5 text-xl leading-7.5 md:leading-9.5 -tracking-stretch">
+        <ul className="space-y-2.5">
           <li>Ape Unit GmbH</li>
           <li>Waldemarstraße 38,</li>
           <li>W10999 Berlin</li>
         </ul>
-        <ul className="space-y-0.25">
+        <ul className="space-y-2.5">
           <li>
             <Link href="https://twitter.com/apeunit" target="_blank">
               Twitter
@@ -23,7 +23,7 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              href="https://de.linkedin.com/company/ape-unit"
+              href="https://www.linkedin.com/company/apeunit/"
               target="_blank"
             >
               LinkedIn

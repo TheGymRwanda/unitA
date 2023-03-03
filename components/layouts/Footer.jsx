@@ -23,7 +23,7 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              href="https://de.linkedin.com/company/ape-unit"
+              href="https://www.linkedin.com/company/apeunit/"
               target="_blank"
             >
               LinkedIn

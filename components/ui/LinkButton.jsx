@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
-const Button = ({ children, link = "#", target, size = "normal" }) => {
+const LinkButton = ({ children, link = "#", target, size = "normal" }) => {
   const buttonStyle = classNames(
-    "bg-white text-black -tracking-stretch flex w-fit px-8.75 lg:px-12 gap-6 group",
+    "bg-white text-black flex w-fit px-8.75 lg:px-12 gap-6 group",
     {
-      "py-4 text-md sm:text-3xl leading-11 rounded-5xl": size === "large",
-      "py-3 leading-9 text-2xl rounded-4xl": size !== "large",
+      "py-4 text-xl sm:text-3xl leading-7.5 -tracking-stretch sm:leading-9.5 rounded-5xl":
+        size === "large",
+      "py-3 text-lg sm:text-2xl md:-tracking-stretch rounded-4xl leading-6.75 md:leading-7.5":
+        size !== "large",
     }
   );
   return (
@@ -25,4 +27,4 @@ const Button = ({ children, link = "#", target, size = "normal" }) => {
   );
 };
 
-export default Button;
+export default LinkButton;
